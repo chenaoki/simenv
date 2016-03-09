@@ -1,0 +1,12 @@
+[submodule "setup/teuchos_headers"]
+	path = setup/teuchos_headers
+	url = https://github.com/chenaoki/teuchos_headers.git
+[submodule "Trilinos"]
+	path = Trilinos
+	url = git@github.com:chenaoki/Trilinos.git
+[submodule "lifev"]
+	path = lifev
+	url = git@github.com:chenaoki/lifev.git
+[submodule "ripple"]
+	path = ripple
+	url = git@github.com:chenaoki/ripple.git
