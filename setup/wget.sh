@@ -1,11 +1,14 @@
-CWD=`dirname $0`
+CWD=$(cd $(dirname $0);pwd)
+echo $CWD
+cd $CWD
 
 wget http://glaros.dtc.umn.edu/gkhome/fetch/sw/parmetis/parmetis-4.0.3.tar.gz
 tar -zxvf parmetis-4.0.3.tar.gz
 cd parmetis-4.0.3
-make config shared=1
-make && make install
 cd metis
+make && make install
+make config shared=1
+cd ..
 make && make install
 cd $CWD
 

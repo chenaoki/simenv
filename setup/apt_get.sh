@@ -1,29 +1,30 @@
-sudo apt-get -y dist-upgrade
-sudo apt-get -y update
-sudo apt-get -y upgrade
-sudo apt-get -y install automake
-sudo apt-get -y install libncurses5-dev
-sudo apt-get -y install exuberant-ctags
-sudo apt-get -y install gcc 
-sudo apt-get -y install gdb 
-sudo apt-get -y install make 
-sudo apt-get -y install cmake 
-sudo apt-get -y install openssl
-sudo apt-get -y install libboost-dev
-sudo apt-get -y install libssl-dev
-sudo apt-get -y install libbz2-dev
-sudo apt-get -y install libreadline-dev
-sudo apt-get -y install libsqlite3-dev
-sudo apt-get -y install libssl-dev
-sudo apt-get -y install libbz2-dev
-sudo apt-get -y install libreadline-dev
-sudo apt-get -y install libsqlite3-dev
-sudo apt-get -y install openmpi-bin
-sudo apt-get -y install openmpi-common
-sudo apt-get -y install libhdf5-openmpi-dev
-sudo apt-get -y install libopenblas-base
-sudo apt-get -y install libopenblas-dev
-sudo apt-get -y install liblapack-dev
-sudo apt-get -y install libsuitesparse-dev
-sudo apt-get -y install libopencv-dev
-sudo apt-get -y install python-opencv
+sudo apt-get dist-upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install automake
+sudo apt-get install libncurses5-dev
+sudo apt-get install exuberant-ctags
+sudo apt-get install gcc 
+sudo apt-get install gdb 
+sudo apt-get install make 
+sudo apt-get install cmake 
+sudo apt-get install openssl
+sudo apt-get install libboost-all-dev
+sudo apt-get install libssl-dev
+sudo apt-get install libbz2-dev
+sudo apt-get install libreadline-dev
+sudo apt-get install libsqlite3-dev
+sudo apt-get install libssl-dev
+sudo apt-get install libbz2-dev
+sudo apt-get install libreadline-dev
+sudo apt-get install libsqlite3-dev
+sudo apt-get install openmpi-bin
+sudo apt-get install openmpi-common
+sudo apt-get install libhdf5-openmpi-7
+sudo apt-get install libhdf5-openmpi-dev
+sudo apt-get install libopenblas-base
+sudo apt-get install libopenblas-dev
+sudo apt-get install liblapack-dev
+sudo apt-get install libsuitesparse-dev
+sudo apt-get install libopencv-dev
+sudo apt-get install python-opencv
